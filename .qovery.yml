@@ -1,0 +1,11 @@
+---
+application:
+  name: "docker-node-hello-world"
+  project: "asapasap"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-docker-node-hello-world"
+  routes:
+  - application_name: "docker-node-hello-world"
+    paths:
+    - "/*"

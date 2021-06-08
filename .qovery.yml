@@ -7,6 +7,9 @@ databases:
 - type: postgresql
   version: 12
   name: my-postgresql
+- type: postgresql
+  version: "11.5"
+  name: my-postgresql
 routers:
 - name: "main-docker-node-hello-world"
   routes:
